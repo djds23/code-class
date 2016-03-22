@@ -2,9 +2,18 @@
 
 ## loops, functions and conditionals
 
+#### 15 minutes 
+
 * defining your own functions
+
+#### 20 minutes
+
+* boolean comparissons
 * using conditionals: `if ... else`
 * using conditionals: `if ... elif ... else`
+
+#### 30 minutes
+
 * using loops: `while`
 * using loops: `for`
 * using lists
