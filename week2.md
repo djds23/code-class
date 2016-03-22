@@ -3,17 +3,30 @@
 ## loops, functions and conditionals
 
 * defining your own functions
-* using conditionals: `if ... else ... end`
-* using conditionals: `if ... elsif ... else ... end`
+* using conditionals: `if ... else`
+* using conditionals: `if ... elif ... else`
 * using loops: `while`
 * using loops: `for`
-* collections: Arrays
-* using loops: `each`
-* collections: Hashes 
+* using lists
 
-combining them:
+### Homework
 
-loop over an array of numbers, create a function that prints 'meow' for odd numbers and 'woof' for eaven ones 
+* `import turtle` 
+	* make the turtle draw a square
+	* reading documentation
+	* [Make the turtle move around!](https://docs.python.org/3/library/turtle.html)
 
 
+```python
+from turtle import *
+color('red', 'yellow')
+begin_fill()
+while True:
+    forward(200)
+    left(170)
+    if abs(pos()) < 1:
+        break
 
+end_fill()
+done()
+```

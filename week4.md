@@ -2,7 +2,6 @@
 
 ## `class`, `module` and Object oriented programming
 
-* creating a `class`
-* creating a `module`
-* inheritence & composistion
-* tbd
+* csv cont...
+* performing http requests
+
