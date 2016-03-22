@@ -12,6 +12,6 @@ Install python2.7
 	- TBA 
         
   
-### Think about what you want to get out of this class?
+### Before you arrive, think about what you want to get out of this class...
 
-[Bookmark this website](http://learnpythonthehardway.org/book/)
+[...and bookmark this website!](http://learnpythonthehardway.org/book/)
