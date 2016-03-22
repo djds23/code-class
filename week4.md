@@ -1,7 +1,7 @@
 # Week 4
 
-## `class`, `module` and Object oriented programming
+## You've made it this far!
 
-* csv cont...
-* performing http requests
+* csv cont... (dictreader/dictwriter)
+* Project day? What could we not do 4 weeks ago that is now possible?
 
