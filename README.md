@@ -1,5 +1,4 @@
-
-Curriculum for #code4all
+# Code4All
 
 #### Time Commitment
 
@@ -11,6 +10,10 @@ We expect class to take 2 hours a week, a long with around 1 hour of homework.
 * [Week 4](week4.md)
 
 On top of this, we recommend people On top of this, we recommend people On top of this, we recommend people [work through this book if they want to read ahead.](http://learnpythonthehardway.org/book/)
+
+#### Set Up
+
+[Please see our setup instructions here.](week0.md) We would appreciate everyone do their best to get their environment set up before walking in the door. If you need any set up help, please feel free to reach out!
 
 #### Personal Laptop Policy
 
