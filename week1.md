@@ -23,7 +23,7 @@ Commands | Definitions
 * Opening the interactive interpreter
 * Basic math (python as a calculator)
 * Basic strings (making sentences)
-* Btoring data in variables
+* Storing data in variables
 	* first name + last name = full name
 
 #### 10 minutes
