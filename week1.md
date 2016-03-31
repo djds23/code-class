@@ -6,38 +6,49 @@
 
 #### Introduction 15 minutes
 
-* Final Project: 
+* Why do you want to learn to code?
 	* Think about something in your day job you want to automate...
-
-* Demo scripts
 
 #### 30 minutes
 
-* opening the interactive interpreter
-* basic math (python as a calculator)
-* basic strings (making sentences)
-* storing data in variables
+* Navigating the command line
+
+Commands | Definitions
+--- | :-------------------------:
+`cd` | Change Directory
+`pwd` | Present Working Directory
+`ls` | List Files
+`python` | Run python
+
+* Opening the interactive interpreter
+* Basic math (python as a calculator)
+* Basic strings (making sentences)
+* Btoring data in variables
 	* first name + last name = full name
 
 #### 10 minutes
 
-* the difference between 5 and "5"
+* The difference between 5 and "5"
+
+
+## [Break for Assignment 1](exercises/week1/assignment_1_1.md)
 
 #### 20 minutes
 
-* writing code into a file
+* Writing code into a file
 	* `print`ing
-	* opening a blank file and saving in sublime
-	* navigating to the file in console/terminal
+	* Opening a blank file and saving in sublime
+	* Navigating to the file in console/terminal
 	* `$ python my_file.py`
 
 #### 5 minutes
-* running a file at the command line.
+* Running a file at the command line.
 
+## [Break for Assignment 2](exercises/week1/assignment_1_2.md)
 
 ### Homework
 
-* find the file in the directory, and run it
+* Find the file in the directory, and run it
 
 ```python
 print('Hello World')
