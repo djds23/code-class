@@ -1,41 +1,29 @@
 # Week 2
 
-## loops, functions and conditionals
+## Functions, conditionals and loops
 
-#### 15 minutes 
+#### 15 minutes
 
-* defining your own functions
+* Defining your own functions
+  * What is a function?
+  * Why would you use a function?
+  * `return`ing values from functions
+
+## [Break for Assignment 1](exercises/week2/assignment_2_1.md)
 
 #### 20 minutes
 
-* boolean comparissons
-* using conditionals: `if ... else`
-* using conditionals: `if ... elif ... else`
+* Boolean comparisons
+* Using conditionals: `if ... else`
+* Using conditionals: `if ... elif ... else`
+
+## [Break for Assignment 2](exercises/week2/assignment_2_2.md)
 
 #### 30 minutes
 
-* using loops: `while`
-* using loops: `for`
-* using lists
+* Using loops: `while`
+* Using loops: `for`
+* Using lists
 
-### Homework
+## [Break for Assignment 3](exercises/week2/assignment_2_3.md)
 
-* `import turtle` 
-	* make the turtle draw a square
-	* reading documentation
-	* [Make the turtle move around!](https://docs.python.org/3/library/turtle.html)
-
-
-```python
-from turtle import *
-color('red', 'yellow')
-begin_fill()
-while True:
-    forward(200)
-    left(170)
-    if abs(pos()) < 1:
-        break
-
-end_fill()
-done()
-```
