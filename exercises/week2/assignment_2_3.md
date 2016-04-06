@@ -21,7 +21,7 @@ done()
 ```
 
 ##### Tip:
-You are not expected to just know how to do this. Try out commands in the python interpreter.
+You are not expected to just know how to do this. This will take experimentation and time. Try out commands in the python interpreter.
 Google is your friend, and make sure to read the documentation. Finally, do not be afraid to ask for help.
 
 

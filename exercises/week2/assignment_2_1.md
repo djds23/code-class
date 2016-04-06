@@ -20,4 +20,4 @@ run your file to print `'Hello, Dean!'`.
 Write 3 functions:
   * One to square a number `square(3) #=> 9`
   * One to cube a number `cube(3) #=> 27`
-  * One to repeat a string `double_string('my string') #=> 'my_stringmy_string'`
+  * One to repeat a string `double_string('my string') #=> 'my stringmy string'`
