@@ -10,7 +10,7 @@
 
 * strings cont...
 	* `split`ting up strings
-	* `find`ing things in strings
+	* `find`ing things `in` strings
 	* first and last names from strings '123123 some@email.whatever John Doe'
 
 #### 30 minutes
