@@ -86,6 +86,14 @@ else:
 #### 30 minutes
 
 * What are `lists`?
+* Accessing particular indexes
+
+```python
+my_list = [1, 2, 3]
+first_element = my_list[0]
+last_element = my_list[-1]
+```
+
 * Using loops: `while`
 * Using loops: `for`
 
