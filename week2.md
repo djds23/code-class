@@ -44,6 +44,17 @@ Operator | Meaning | Example
 * Using loops: `while`
 * Using loops: `for`
 
+```python
+def purchase(grocery):
+    print('%s was purchased' % grocery)
+
+groceries = ['eggs', 'milk', 'tofu']
+
+for grocery in groceries:
+    purchase(grocery)
+
+```	
+
 
 ## [Break for Assignment 3](exercises/week2/assignment_2_3.md)
 
