@@ -5,7 +5,17 @@
 #### 10 minutes
 
 * Review from last week
-    * variables, math and running python
+    * Variables, math and running python
+    * The difference between `0`, `"0"` and even `0.0`
+
+Division does strange things
+
+```python
+>>> 3/2 # dividing two integers 
+1
+>>> 3/2.0 # dividing an integer by a float
+1.5
+```
 
 #### 15 minutes
 
