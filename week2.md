@@ -5,6 +5,7 @@
 #### 10 minutes
 
 * Review from last week
+    * variables, math and running python
 
 #### 15 minutes
 
