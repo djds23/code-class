@@ -13,6 +13,25 @@
   * Why would you use a function?
   * `return`ing values from functions
 
+
+```python
+def first_function(): 
+    print("We are in a function!")
+    print("Horray for functions!")
+
+def function_with_arguments(first_argument, second_argument):
+    print("You can pass functions arguments")
+    print("arguments are variables that are passed into the function")
+    print("the first argument is %s" % first_argument)
+    print("the second argument is %s" % second_argument)
+    return first_argument + " " + second_argument
+
+def square(a):
+    return a * a
+
+square_of_two = square(2) #=> 2
+```
+
 ## [Break for Assignment 1](exercises/week2/assignment_2_1.md)
 
 #### 20 minutes
