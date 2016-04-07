@@ -54,6 +54,21 @@ Operator | Meaning | Example
 * Using conditionals: `if ... else`
 * Using conditionals: `if ... elif ... else`
 
+```python
+some_number = 100
+if some_number > 0:
+    print("Thats some number!")
+else:
+    print("Stop being so negitive!")
+
+if some_number > 9000:
+    print("Over 9000? What!")
+elif some_number > 0:
+    print("Thats some number!")
+else:
+    print("Stop being so negitive!")
+```
+
 
 ## [Break for Assignment 2](exercises/week2/assignment_2_2.md)
 
