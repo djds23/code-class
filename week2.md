@@ -70,14 +70,14 @@ some_number = 100
 if some_number > 0:
     print("Thats some number!")
 else:
-    print("Stop being so negitive!")
+    print("Stop being so negative!")
 
 if some_number > 9000:
     print("Over 9000? What!")
 elif some_number > 0:
     print("Thats some number!")
 else:
-    print("Stop being so negitive!")
+    print("Stop being so negative!")
 ```
 
 
