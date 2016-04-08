@@ -6,7 +6,7 @@ Write a function to greet you:
 in `greet.py`:
 
 ```python
-def greet():
+def greet(name):
     # your code here...
 
 greet('Dean')

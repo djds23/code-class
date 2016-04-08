@@ -53,7 +53,7 @@ square_of_two = square(2) #=> 2
 Operator | Meaning | Example
 --- | :---: | ---
 `==`| Equality | `0 == 0 #=> True`
-`!=`| Inequality | `0 != 0 #=> True`
+`!=`| Inequality | `0 != 1 #=> True`
 `>` | Greater Than | `10 > 0  #=> True`
 `<` | Less Than | `10 < 100 #=> True`
 `>=` | Greater Than Equal | `100 >= 100 and 1000 >= 100 #=> True`
@@ -108,8 +108,11 @@ for grocery in groceries:
 
 ```	
 
-
 ## [Break for Assignment 3](exercises/week2/assignment_2_3.md)
+
+#### Homework 
+
+[Complete chapters 15 - 30](exercises/week2/assignment_2_3.md)
 
 #### Class notes
 
