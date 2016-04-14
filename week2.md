@@ -83,36 +83,9 @@ else:
 
 ## [Break for Assignment 2](exercises/week2/assignment_2_2.md)
 
-#### 30 minutes
-
-* What are `lists`?
-* Accessing particular indexes
-
-```python
-my_list = [1, 2, 3]
-first_element = my_list[0]
-last_element = my_list[-1]
-```
-
-* Using loops: `while`
-* Using loops: `for`
-
-```python
-def purchase(grocery):
-    print('%s was purchased' % grocery)
-
-groceries = ['eggs', 'milk', 'tofu']
-
-for grocery in groceries:
-    purchase(grocery)
-
-```	
-
-## [Break for Assignment 3](exercises/week2/assignment_2_3.md)
-
 #### Homework 
 
-[Complete chapters 15 - 30](exercises/week2/assignment_2_3.md)
+[Complete chapters 15 - 20](http://learnpythonthehardway.org/book/)
 
 #### Class notes
 
