@@ -106,9 +106,9 @@ print(first_name) #=> 'Dean'
 
 # Finding Specific places in a string
 dirty_data = 'd. silfen uniq_id:4422              pizza'
-index_of_relevant_data = dirty_data.find('uniq_id:') + 8
-end_of_relevant_data = index_of_relevant_data +4
-useful_information = dirty_data[index_of_relevant_data:end_of_relevant_data]
+start_of_relevant_data = dirty_data.find('uniq_id:') + 8
+end_of_relevant_data = start_of_relevant_data + len('uniq_id:') # len tells us the length of a string
+useful_information = dirty_data[start_of_relevant_data:end_of_relevant_data]
 print(useful_information)
 
 
