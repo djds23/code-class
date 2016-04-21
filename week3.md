@@ -5,8 +5,20 @@
 
 * Review from last week
     * Functions, conditionals & booleans
-    * creating functions, passing arguments and returning values
+    	* Functions as a way to separate out logic. 
+    	* Conditionals with boolean logic allow us to make decisions with our code
+   
+```python
+def is_big_number(number):
+    if number > 100: 
+        # Numbers greater than 100 are considered 'big'
+        big_number = True
+    else:
+        big_number = False
+    return big_number
 
+is_big_number(99)
+```
 
 #### 30 minutes
 
@@ -41,7 +53,7 @@ for grocery in groceries:
 
 ```	
 
-## [Break for Assignment 1](exercises/week2/assignment_3_1.md)
+## [Break for Assignment 1](exercises/week3/assignment_3_1.md)
 
 #### 10 minutes
 
@@ -74,25 +86,42 @@ orange_juice['delicious'] = True
 print(orange_juice['delicious']) #=> True
 ```
 
-## [Break for Assignment 2](exercises/week2/assignment_3_1.md)
+## [Break for Assignment 2](exercises/week3/assignment_3_2.md)
 
 #### 20 minutes 
 
 * strings cont...
 	* `split`ting up strings
-	* `find`ing things `in` strings
-	* first and last names from strings '123123 some@email.whatever John Doe'
+	* [`find`ing things `in` strings](https://docs.python.org/2/library/string.html#string.find)
+	* Slicing up strings with indexes
+
+```python
+# Splitting string into a list
+full_name = 'Dean Silfen'
+names = full_name.split()
+print(names) #=> ['Dean', 'Silfen']
+
+first_name = names[0]
+print(first_name) #=> 'Dean'
+
+# Finding Specific places in a string
+dirty_data = 'd. silfen uniq_id:4422              pizza'
+index_of_relevant_data = dirty_data.find('uniq_id:') + 8
+end_of_relevant_data = index_of_relevant_data +4
+useful_information = dirty_data[index_of_relevant_data:end_of_relevant_data]
+print(useful_information)
 
 
-#### 30 minutes
+first_initial = first_name[0]
+print(first_initial) #=> 'D'
 
-* opening a file
-* reading a file
-* writing a file
-* `import csv`
+```
+
+## [Break for Assignment 3](exercises/week3/assignment_3_3.md)
 
 
 ### Homework 
-
-* write a script to read a csv file and print out every line with a valid email
+* [Play with turtle!](exercises/week3/turtle.md)
+* [Complete through chapter 39](http://learnpythonthehardway.org/book/)
+* Bring in an idea of a workflow you would like to automate
 
