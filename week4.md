@@ -72,7 +72,7 @@ import csv
 my_file = open('file.csv')
 my_table = csv.reader(my_file)
 for row in my_table:
-    print(row)
+1.     print(row)
 ```
 * Project day? What could we not do 4 weeks ago that is now possible?
 

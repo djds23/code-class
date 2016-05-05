@@ -6,7 +6,7 @@ Create a function that:
 - Prints out the 24 Hour time
 
 
-```python
+```bash
 $ python 12to24.py
 What time are we converting?
 > 7:00 PM
