@@ -57,15 +57,23 @@ while True:
 ```
 
 
+## [Break for Assignment 1](exercises/week4/assignment_4_1.md)
 
 
 #### 30 minutes
 
 * opening a file
 * reading a file
-* writing a file
 * `import csv`
 
-* csv cont... (dictreader/dictwriter)
+```python
+import csv
+
+my_file = open('file.csv')
+my_table = csv.reader(my_file)
+for row in my_table:
+    print(row)
+```
 * Project day? What could we not do 4 weeks ago that is now possible?
 
+* writing a file
