@@ -88,36 +88,6 @@ print(orange_juice['delicious']) #=> True
 
 ## [Break for Assignment 2](exercises/week3/assignment_3_2.md)
 
-#### 20 minutes 
-
-* strings cont...
-	* `split`ting up strings
-	* [`find`ing things `in` strings](https://docs.python.org/2/library/string.html#string.find)
-	* Slicing up strings with indexes
-
-```python
-# Splitting string into a list
-full_name = 'Dean Silfen'
-names = full_name.split()
-print(names) #=> ['Dean', 'Silfen']
-
-first_name = names[0]
-print(first_name) #=> 'Dean'
-
-# Finding Specific places in a string
-dirty_data = 'd. silfen uniq_id:4422              pizza'
-start_of_relevant_data = dirty_data.find('uniq_id:') + 8
-end_of_relevant_data = start_of_relevant_data + len('uniq_id:') # len tells us the length of a string
-useful_information = dirty_data[start_of_relevant_data:end_of_relevant_data]
-print(useful_information)
-
-
-first_initial = first_name[0]
-print(first_initial) #=> 'D'
-
-```
-
-## [Break for Assignment 3](exercises/week3/assignment_3_3.md)
 
 
 ### Homework 
